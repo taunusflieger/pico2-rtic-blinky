@@ -1,0 +1,20 @@
+[package]
+name = "pico2-rtic-blinky"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cortex-m = "0.7.2"
+cortex-m-rt = "0.7"
+rtic = { git = "https://github.com/taunusflieger/rtic", features = ["thumbv8mainhf-backend"]}
+rtic-monotonics = { git = "https://github.com/taunusflieger/rtic", features = ["rp235x"]}
+fugit = "0.3"
+panic-probe = "0.3"
+portable-atomic = { version = "1" }
+rp235x-hal = { git = "https://github.com/rp-rs/rp-hal", features = ["binary-info", "critical-section-impl", "rt", "defmt"]}
+embedded-hal = "1.0.0"
+embedded-hal-async = "1.0.0"
+embedded_hal_0_2 = {package = "embedded-hal", version = "0.2.5", features = ["unproven"]}
+defmt = "0.3"
+defmt-rtt = "0.4.0"
+critical-section = {version = "1.0.0"}
