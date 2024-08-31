@@ -6,8 +6,8 @@ edition = "2021"
 [dependencies]
 cortex-m = "0.7.2"
 cortex-m-rt = "0.7"
-rtic = { git = "https://github.com/taunusflieger/rtic", features = ["thumbv8mainhf-backend"]}
-rtic-monotonics = { git = "https://github.com/taunusflieger/rtic", features = ["rp235x"]}
+rtic = { git = "https://github.com/taunusflieger/rtic", branch="feature/rp235x", features = ["thumbv8main-backend"]}
+rtic-monotonics = { git = "https://github.com/taunusflieger/rtic", branch="feature/rp235x", features = ["rp235x"]}
 fugit = "0.3"
 panic-probe = "0.3"
 portable-atomic = { version = "1" }

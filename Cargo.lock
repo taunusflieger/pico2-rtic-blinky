@@ -569,7 +569,7 @@ dependencies = [
 [[package]]
 name = "rtic"
 version = "2.1.1"
-source = "git+https://github.com/taunusflieger/rtic#eef846dd876adb4c88134f05accf68ba576f510a"
+source = "git+https://github.com/taunusflieger/rtic?branch=feature/rp235x#8083ef291c9d1160f0217ca3e0e0cafe88a35db1"
 dependencies = [
  "bare-metal 1.0.0",
  "cortex-m",
@@ -582,7 +582,7 @@ dependencies = [
 [[package]]
 name = "rtic-common"
 version = "1.0.1"
-source = "git+https://github.com/taunusflieger/rtic#eef846dd876adb4c88134f05accf68ba576f510a"
+source = "git+https://github.com/taunusflieger/rtic?branch=feature/rp235x#8083ef291c9d1160f0217ca3e0e0cafe88a35db1"
 dependencies = [
  "critical-section",
  "portable-atomic",
@@ -597,7 +597,7 @@ checksum = "d9369355b04d06a3780ec0f51ea2d225624db777acbc60abd8ca4832da5c1a42"
 [[package]]
 name = "rtic-macros"
 version = "2.1.0"
-source = "git+https://github.com/taunusflieger/rtic#eef846dd876adb4c88134f05accf68ba576f510a"
+source = "git+https://github.com/taunusflieger/rtic?branch=feature/rp235x#8083ef291c9d1160f0217ca3e0e0cafe88a35db1"
 dependencies = [
  "indexmap",
  "proc-macro-error",
@@ -609,7 +609,7 @@ dependencies = [
 [[package]]
 name = "rtic-monotonics"
 version = "2.0.2"
-source = "git+https://github.com/taunusflieger/rtic#eef846dd876adb4c88134f05accf68ba576f510a"
+source = "git+https://github.com/taunusflieger/rtic?branch=feature/rp235x#8083ef291c9d1160f0217ca3e0e0cafe88a35db1"
 dependencies = [
  "cfg-if",
  "cortex-m",
@@ -622,7 +622,7 @@ dependencies = [
 [[package]]
 name = "rtic-time"
 version = "2.0.0"
-source = "git+https://github.com/taunusflieger/rtic#eef846dd876adb4c88134f05accf68ba576f510a"
+source = "git+https://github.com/taunusflieger/rtic?branch=feature/rp235x#8083ef291c9d1160f0217ca3e0e0cafe88a35db1"
 dependencies = [
  "critical-section",
  "embedded-hal 1.0.0",
