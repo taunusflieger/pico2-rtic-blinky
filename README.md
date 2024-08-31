@@ -2,6 +2,7 @@
 
 This sample requires a RTIC version that supports the RP235x. The RTIC version used in this sample is [this one](https://github.com/taunusflieger/rtic)
 
+The code has only be tested for the ARM target.
 <!-- LICENSE -->
 ## License
 
